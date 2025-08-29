@@ -37,7 +37,7 @@ background: rgba(255, 255, 255, 0.1);
   color: black;
   transition: 0.1s;
 }
-.btn2{
+.btn2,.btn3{
    background-color: white;
   color: black;
   width: 134px;
@@ -46,7 +46,7 @@ background: rgba(255, 255, 255, 0.1);
      line-height: 48px;
     border-radius: 3px;
 }
-.btn2:hover{
+.btn2,.btn3:hover{
   background: rgba(255, 255, 255, 0.1);
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -61,5 +61,11 @@ background: rgba(255, 255, 255, 0.1);
     text-align: center;
     cursor: pointer;
     transition: all 300ms linear 0s;
+}
+.btn3{
+  padding-top: 70 px;
+  margin-left: 100px;
+  margin-top: 30px;
+ 
 }
 
