@@ -68,4 +68,48 @@ background: rgba(255, 255, 255, 0.1);
   margin-top: 30px;
  
 }
+.icon{
+      list-style: none;
+    margin: 3px;
+    margin-top: 0px;
+    padding: 5px;
+    padding-top: 0px;
+    width:40px;
+    height:40px;
+    display: inline-flex;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+ 
+    margin: 0 12px; 
+}
 
+.input {
+  height: 40px;
+  background: #fff;
+  border-radius: 0;
+  flex: 1; 
+  border: none;
+  padding: 0 15px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  outline: none;
+  box-shadow: none;
+  margin: 0; 
+}
+
+.inputbtn {
+  border-radius: 0;
+  background: #3bacf0;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  width: 42px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  margin: 0; 
+}
